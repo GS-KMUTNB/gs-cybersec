@@ -1,4 +1,4 @@
 <h2 align="left">I'm Yok <br></h2>
 
-phattharawadee chata
+phattharawadee 
 ( ภัทราวดี )
