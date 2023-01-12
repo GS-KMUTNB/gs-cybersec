@@ -1,4 +1,4 @@
-<h2 align="left">I'm Pho0m <br></h2>
+## I'm Pho0m
 
 - Kiattiphoom Poonketkit
-- ( เกียรติภูมิ พูลเขตร์กิจ )
+- TCT2
