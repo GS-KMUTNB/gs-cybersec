@@ -1,4 +1,6 @@
-## I'm Pho0m
+![alt text](./i'm%20pho0m.gif)
 
-- kiattiphoom poonketkit
-- TCT2
+# Let me introduce 💬
+
+- 👋 Hi, I’m pho0m, Kiattiphoom Poonketkit.
+- 🗨️ Study at KMUTNB Faculty of Education TCT2
