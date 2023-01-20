@@ -1,0 +1,10 @@
+version: '3'
+services:
+  db:
+    container_name: markstore2
+    image: postgres:latest
+    environment:
+      - POSTGRES_PASSWORD=mysecretpassword
+    ports:
+      - 5566:5432
+    restart: always
