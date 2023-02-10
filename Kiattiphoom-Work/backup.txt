@@ -1,0 +1,11 @@
+// cmd
+docker run 
+  -it 
+  -p 8090:9100 
+  -e POSTGRES_USER=postgres 
+  -e POSTGRES_PASSWORD=mysecretpassword 
+  -e DATABASE_USERNAME=ced_dev 
+  -e DATABASE_PASSWORD=1ovemelovemydo9 
+  --name my-group-auth 
+  -d 
+fusionauth/fusionauth-app
