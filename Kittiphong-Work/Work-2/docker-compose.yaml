@@ -1,0 +1,22 @@
+version: "3.4"
+services:
+  db:
+    container_name: Kittiphong-65-cybersec-db
+    image: postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - ${POSTGRES_PORT}:5432
+    restart: always
+
+  auth:
+    image: fusionauth/fusionauth-app
+    ports:
+      - ${FUSI_AUTH_PORT}:9011
+    restart: always
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+      - DATABASE_USERNAME=${DATABASE_USERNAME}
+      - DATABASE_PASSWORD=${DATABASE_PASSWORD}
