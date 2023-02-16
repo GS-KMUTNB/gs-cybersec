@@ -17,6 +17,6 @@ services:
       - 9011:9011
     restart: always
     environment:
-      DATABASE_URL: jdbc:postgresql://db:5432/ced_dev
-      DATABASE_USERNAME: postgres
+      DATABASE_URL: ${DB_URL}
+      DATABASE_USERNAME: ${DB_USER}
       DATABASE_PASSWORD: ${DB_PASS}
