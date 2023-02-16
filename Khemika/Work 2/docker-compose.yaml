@@ -1,0 +1,22 @@
+version: '3.4'
+services:
+  db:
+    container_name: Khemika-65-cybersec-db
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: ${PG_DB}
+      POSTGRES_USER: ${PG_USER}
+      POSTGRES_PASSWORD: ${PG_PASS}
+    ports:
+      - ${PG_PORT}:5432
+    restart: always
+
+  auth:
+    image: fusionauth/fusionauth-app
+    ports:
+      - 9011:9011
+    restart: always
+    environment:
+      DATABASE_URL: jdbc:postgresql://db:5432/ced_dev
+      DATABASE_USERNAME: postgres
+      DATABASE_PASSWORD: ${DB_PASS}
