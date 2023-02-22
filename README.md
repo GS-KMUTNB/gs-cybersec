@@ -1,5 +1,8 @@
-# gs-cybersec
+# phattharawadee-65-cybersec
 
-## About The Project
+## My Profile
+- Miss. Phattharawadee Chata (Cyber Security)
+- 6402041510051
 
-repositories นี้เป็นส่วนหนึ่งของวิชา 020413223 Cyber Security กลุ่ม GS-cybersec
+### Note
+This is simple
