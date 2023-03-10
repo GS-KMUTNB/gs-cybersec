@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "44bbf8f3-652f-448a-b34e-6429bbdf246c",
+		"name": "Cybersec65",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26156907"
+	},
+	"item": [
+		{
+			"name": "New Request Login",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "nrupWW453pVb_E0zHX3ykCFJa4dJ7iWqNQgSJWgBa6o89ior0FHA-Lfd",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"loginId\": \"username@demo.com\",\r\n  \"password\": \"demo2543\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9011/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9011",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request User",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ijg0MTQ4OTAyNyJ9.eyJleHAiOjE2Nzg0MzE5MzYsImlhdCI6MTY3ODQyODMzNiwiaXNzIjoiYWNtZS5jb20iLCJzdWIiOiI0MDZkY2VhNS0yZTRhLTQ0Y2ItYjBiYS01ODFkOTU1YjFmMDMiLCJqdGkiOiI2YWZkZDc0Yy04OTcwLTRhY2UtYTlhZS05N2Q4YjFiZDgxYWMiLCJhdXRoZW50aWNhdGlvblR5cGUiOiJQQVNTV09SRCIsImVtYWlsIjoidXNlcm5hbWVAZGVtby5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicHJlZmVycmVkX3VzZXJuYW1lIjoiZGVtbyIsImF1dGhfdGltZSI6MTY3ODQyODMzNiwidGlkIjoiZmU1ZTc2NTEtYmQ5ZC1jNWVhLThmMDUtODc3NTgwNjM2YWU1In0.VHoJjZWdblPX56UYQ5KUYpGOOLjFmDkxy7X9wX8rcOE",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9011/api/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9011",
+					"path": [
+						"api",
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
